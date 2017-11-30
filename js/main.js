@@ -89,6 +89,10 @@
   selezionare il quarto elemento con attributo data-index
   e settarne il css width a 75%; e margin-right 25%
   */
+  $('[data-index = "1"]').css({width:'75%', marginLeft:'25%'});
+  $('[data-index = "3"]').css({width:'75%', marginRight:'25%'});
+  //$('[data-index]').eq(3).css({width:'75%', marginRight:'25%'});
+
   //Per svolgere questo esercizio potere ricercare le seguenti chiavi
   //jquery attribute selection $('[attributo]')  $('[attributo="valore"]')
   //jquery set css
